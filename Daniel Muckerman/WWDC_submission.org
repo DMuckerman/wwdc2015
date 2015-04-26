@@ -1,0 +1,55 @@
+#+TITLE: Why me at WWDC
+#+AUTHOR: Daniel Muckerman
+
+* About me
+    I'm Daniel Muckerman, a Computer Science Major at York College of Pennsylvania.
+    And I'd love to go to WWDC.
+
+* Why do I want to go
+    + I've wanted to do iOS development since the first iPod Touch
+        - It was actually the reason I got my first iPod Touch, and started looking at Macs
+    + Ever since I switched to a Mac, it's been my favorite computing platform that I've ever used
+        - My family grew up on PC's, and I fled to Linux shortly before finding haven in OS X
+** So why did I write a text editor?
+    + I'm an Emacs user, and do most all my writing in Org-mode
+        - I initially started drafting ideas in an Org file, then realized something Org related would be a good way to say something about me
+    + So I wrote a text editor made to syntax highlight Org files in a fun, colorful manner
+
+* Schooling
+    + I've been teaching myself programming since middle school
+        - I learned to program by teaching myself TI-BASIC on the TI-83+ calculator
+    + Three years of CS classes in high school
+        - I learned a lot about Java and HTML/CSS
+    + CS every year in college
+        - These classes have helped solidify my skills in Java and C++, and my other languages and practices
+
+* Skills & Interests
+    + Mainly Java & C++
+        - These two are my strongest languages, and the ones I'm most experienced with
+    + Dabbled in Objective-C, Clojure, and Perl
+        - I've written a simple iPhone app in Objective-C before
+        - I spent a whole semester learning and using Clojure
+        - I've started dabbling with Perl for writing scripts recently
+    + Been playing with Swift since shortly after first release
+        - Swift is a huge part of the reason I signed up for the iOS Developer Program after last WWDC
+        - Thanks to Playgrounds, I've used it to hash out quick implementations of solutions for test questions, among other things
+    + I'm a proud Emacser
+        - I rely on Emacs for nearly all my text-editing needs
+        - My use of Emacs and Org-mode is what lead to this project in the first place
+
+* Side projects I've done?
+    + My solo project for my Software Engineering class was to write a simple iPhone app
+        - I wrote a very simple CloudApp client in Objective-C
+        - https://github.com/DMuckerman/UINav
+    + Stickier
+        - To better learn Swift, I wrote a simple "sticky notifications" app inspired by Matt Gemmell's Sticky Notifications app
+        - https://github.com/DMuckerman/Stickier
+    + My Github Profile
+        - https://github.com/DMuckerman
+
+* Final thanks
+    + Thanks to kuanyui, for moe-theme, the color scheme for Emacs that the coloring of this app is based on.
+        - https://github.com/kuanyui/moe-theme.el
+    + Thanks to brutella for the line number code for the NSTextView.
+        - https://github.com/brutella/TextViewLineNumbers
+    + And, thank you for considering me for WWDC!

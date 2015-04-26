@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E20B59D1AECB56D00A8B67C /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9E20B59C1AECB56D00A8B67C /* Icon.icns */; };
+		9E7216621AECB7800004B272 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7216601AECB7800004B272 /* CodeTextView.swift */; };
+		9E7216631AECB7800004B272 /* LineNumberRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7216611AECB7800004B272 /* LineNumberRulerView.swift */; };
+		9E7216681AECB7AF0004B272 /* Input Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E7216641AECB7AF0004B272 /* Input Bold.ttf */; };
+		9E7216691AECB7AF0004B272 /* Input BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E7216651AECB7AF0004B272 /* Input BoldItalic.ttf */; };
+		9E72166A1AECB7AF0004B272 /* Input Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E7216661AECB7AF0004B272 /* Input Italic.ttf */; };
+		9E72166B1AECB7AF0004B272 /* Input Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E7216671AECB7AF0004B272 /* Input Regular.ttf */; };
 		9E945E1A1AEA493D009E9A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E945E191AEA493D009E9A20 /* AppDelegate.swift */; };
 		9E945E1C1AEA493D009E9A20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E945E1B1AEA493D009E9A20 /* ViewController.swift */; };
 		9E945E1E1AEA493D009E9A20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E945E1D1AEA493D009E9A20 /* Images.xcassets */; };
 		9E945E211AEA493D009E9A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E945E1F1AEA493D009E9A20 /* Main.storyboard */; };
 		9E945E2D1AEA493D009E9A20 /* Daniel_MuckermanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E945E2C1AEA493D009E9A20 /* Daniel_MuckermanTests.swift */; };
+		9E945E371AEA4B47009E9A20 /* WWDC_submission.org in Resources */ = {isa = PBXBuildFile; fileRef = 9E945E361AEA4B47009E9A20 /* WWDC_submission.org */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E20B59C1AECB56D00A8B67C /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		9E7216601AECB7800004B272 /* CodeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		9E7216611AECB7800004B272 /* LineNumberRulerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNumberRulerView.swift; sourceTree = "<group>"; };
+		9E7216641AECB7AF0004B272 /* Input Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Input Bold.ttf"; sourceTree = "<group>"; };
+		9E7216651AECB7AF0004B272 /* Input BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Input BoldItalic.ttf"; sourceTree = "<group>"; };
+		9E7216661AECB7AF0004B272 /* Input Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Input Italic.ttf"; sourceTree = "<group>"; };
+		9E7216671AECB7AF0004B272 /* Input Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Input Regular.ttf"; sourceTree = "<group>"; };
 		9E945E141AEA493D009E9A20 /* Daniel Muckerman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daniel Muckerman.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E945E181AEA493D009E9A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E945E191AEA493D009E9A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +49,7 @@
 		9E945E261AEA493D009E9A20 /* Daniel MuckermanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daniel MuckermanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E945E2B1AEA493D009E9A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E945E2C1AEA493D009E9A20 /* Daniel_MuckermanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daniel_MuckermanTests.swift; sourceTree = "<group>"; };
+		9E945E361AEA4B47009E9A20 /* WWDC_submission.org */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WWDC_submission.org; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E2193D61AEC830700712425 /* Public Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E72166D1AECB80A0004B272 /* TextViewLineNumbers */,
+			);
+			name = "Public Classes";
+			sourceTree = "<group>";
+		};
+		9E72166C1AECB8010004B272 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9E7216641AECB7AF0004B272 /* Input Bold.ttf */,
+				9E7216651AECB7AF0004B272 /* Input BoldItalic.ttf */,
+				9E7216661AECB7AF0004B272 /* Input Italic.ttf */,
+				9E7216671AECB7AF0004B272 /* Input Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		9E72166D1AECB80A0004B272 /* TextViewLineNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				9E7216601AECB7800004B272 /* CodeTextView.swift */,
+				9E7216611AECB7800004B272 /* LineNumberRulerView.swift */,
+			);
+			name = TextViewLineNumbers;
+			sourceTree = "<group>";
+		};
 		9E945E0B1AEA493D009E9A20 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +123,7 @@
 				9E945E1B1AEA493D009E9A20 /* ViewController.swift */,
 				9E945E1D1AEA493D009E9A20 /* Images.xcassets */,
 				9E945E1F1AEA493D009E9A20 /* Main.storyboard */,
+				9E945E361AEA4B47009E9A20 /* WWDC_submission.org */,
 				9E945E171AEA493D009E9A20 /* Supporting Files */,
 			);
 			path = "Daniel Muckerman";
@@ -87,6 +132,9 @@
 		9E945E171AEA493D009E9A20 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E72166C1AECB8010004B272 /* Fonts */,
+				9E2193D61AEC830700712425 /* Public Classes */,
+				9E20B59C1AECB56D00A8B67C /* Icon.icns */,
 				9E945E181AEA493D009E9A20 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -189,8 +237,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E945E371AEA4B47009E9A20 /* WWDC_submission.org in Resources */,
+				9E72166A1AECB7AF0004B272 /* Input Italic.ttf in Resources */,
 				9E945E1E1AEA493D009E9A20 /* Images.xcassets in Resources */,
+				9E20B59D1AECB56D00A8B67C /* Icon.icns in Resources */,
+				9E7216691AECB7AF0004B272 /* Input BoldItalic.ttf in Resources */,
+				9E7216681AECB7AF0004B272 /* Input Bold.ttf in Resources */,
 				9E945E211AEA493D009E9A20 /* Main.storyboard in Resources */,
+				9E72166B1AECB7AF0004B272 /* Input Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7216621AECB7800004B272 /* CodeTextView.swift in Sources */,
 				9E945E1C1AEA493D009E9A20 /* ViewController.swift in Sources */,
+				9E7216631AECB7800004B272 /* LineNumberRulerView.swift in Sources */,
 				9E945E1A1AEA493D009E9A20 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +456,7 @@
 				9E945E321AEA493D009E9A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E945E331AEA493D009E9A20 /* Build configuration list for PBXNativeTarget "Daniel MuckermanTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +465,7 @@
 				9E945E351AEA493D009E9A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

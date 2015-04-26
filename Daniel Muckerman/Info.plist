@@ -6,8 +6,6 @@
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
-	<key>CFBundleIconFile</key>
-	<string></string>
 	<key>CFBundleIdentifier</key>
 	<string>com.flamwenco.$(PRODUCT_NAME:rfc1034identifier)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -30,5 +28,14 @@
 	<string>Main</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>CFBundleIconFile</key>
+	<string>Icon.icns</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Input Bold.ttf</string>
+		<string>Input BoldItalic.ttf</string>
+		<string>Input Italic.ttf</string>
+		<string>Input Regular.ttf</string>
+	</array>
 </dict>
 </plist>

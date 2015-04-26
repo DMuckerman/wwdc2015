@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Daniel Muckerman | Code Monkey in Training</title>
+
+  <!-- SEO -->
+
+  <meta name="description" content="Computer Science major, nerd, otaku, and code monkey in training. "/>
+  <meta name="keywords" content="Computer Science, CS, nerd, otaku, App, Mac, code monkey"/>
+  <meta name="viewport" content="width=450, maximum-scale=1"/>
+
+  <!-- Favicon -->
+
+  <link rel="shortcut icon" type="image/ico" href="css/favicon.ico?289349832" />
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/css-tooltips.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="social/style.css" />
+
+  <!-- Fonts -->
+
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+  <div id="wrap">
+    <div id="contain">
+      <div class="animated fadeIn" id="content">
+        <div id="header">
+          <header>
+            <h1>Daniel</h1>
+          </header>
+        </div>
+
+        <p id="intro">Hi, I'm Daniel Muckerman. I'm a Computer Science major at <a href="http://www.ycp.edu" class="link">York College of Pennsylvania</a>. And sometimes, I make stuff.</p> <!-- Talk about yourself here -->
+
+        <p class="animated fadeInUp" id="networks">
+          <a data-tip="Twitter" href="http://twitter.com/dmuckerman" class="twitter" >&#xe003;</a> <!-- Twitter -->
+          <a data-tip="Github" href="http://github.com/dmuckerman" class="github" >&#xe601;</a> <!-- Github -->
+          <a data-tip="Tumblr" href="http://dmuckerman.tumblr.com" class="tumblr">&#xe604;</a> <!-- Tumblr -->
+          <a data-tip="iMessage" href="#" id="imessage" class="imessage">&#xe603;</a> <!-- iMessage -->
+          <a data-tip="Email" href="mailto:danielmuckerman@me.com" class="mail">&#xe030;</a> <!-- Email Address -->
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- iMessage fanciness -->
+  <!-- Only works on iOS and Mac, obviously. I hope to later present an alternative here for other platforms. -->
+
+
+  <script type="text/javascript">
+
+// To avoid the "protocol not supported" alert, fail must open another app.
+var mac = "imessage:danielmuckerman@me.com";
+var iphone = "sms:danielmuckerman@me.com";
+
+// Launches iMessage when option is clicked
+function applink(mac, iphone) {
+  return function() {
+    var clickedAt = +new Date;
+    var iOS = /(iPad|iPhone|iPod)/g.test( navigator.userAgent );
+    var OSX = /(Macintosh)/g.test( navigator.userAgent);
+    if (iOS) {
+      window.location = iphone;
+    } else if (OSX) {
+      window.location = mac;
+    } else {  // Safety case, in case an incompatible device exposes the link
+      alert("Sorry, this option only works on iOS 5.0+ and OSX 10.8+!\n"
+        + "If you want to contact me, try email!");
+    }
+  }
+}
+
+// Ensures iMessage option only shows up on available platforms
+function appleCheck () {
+  var iOS = /(iPad|iPhone|iPod)/g.test( navigator.userAgent );
+  var OSX = /(Macintosh)/g.test( navigator.userAgent);
+  if (!iOS && !OSX) {
+    var element = document.getElementById("imessage");
+    element.parentNode.removeChild(element);
+  }
+}
+
+window.beforeload = appleCheck();
+document.getElementById("imessage").onclick = applink(mac, iphone);
+
+</script>
+
+<script type="text/javascript" src="js/retina.min.js"></script>
+
+</body>
+</html>
